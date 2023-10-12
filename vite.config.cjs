@@ -1,6 +1,9 @@
 import { defineConfig } from "vite";
+import { resolve } from 'path';
+import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
+
   server: {
     open: "/index.html",
   },
@@ -8,4 +11,9 @@ export default defineConfig({
     outDir: "../dist",
   },
   root: "src",
+  plugins: [
+    handlebars({
+      partialDirectory: resolve(__dirname, 'src/partials'),
+    }),
+  ],
 });
