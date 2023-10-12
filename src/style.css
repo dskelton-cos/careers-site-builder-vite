@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
@@ -9,11 +9,39 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --blue:  rgb(8, 80, 161) ;
+  --green: green
+
 }
 
-a {
-  @apply font-medium text-[#646cff];
+
+.logo {
+  width: 250px;
+  align-self: center;
 }
-a:hover {
-  @apply text-[#535bf2];
+
+
+.slightlylimitwidth,
+.limitwidth,
+#innershell,
+.customPlugin>.inner {
+  max-width: none;
 }
+
+
+.row-fluid,
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#headerbordertop {
+  height: initial;
+}
+
+.card-col {
+  margin: 2rem;
+  border: 3px solid rgb(140, 224, 170);
+  border-radius: 8px;
+  padding: 2rem;
+} 
