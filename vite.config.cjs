@@ -17,7 +17,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/index.html'),
-        components: resolve(__dirname, 'src/components.html'),
+        // components: resolve(__dirname, 'src/components.html'),
       },
     },
   },
