@@ -9,10 +9,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --body: rgb(4, 28, 44);
   --blue: rgb(8, 80, 161);
   --green: rgb(24, 136, 56);
   --beige: rgb(242, 236, 231);
 
+}
+
+html,
+body {
+  color: var(--body);
 }
 
 @media (min-width: 768px) {
@@ -45,4 +51,12 @@
   border: 3px solid rgb(140, 224, 170);
   border-radius: 8px;
   padding: 2rem;
+}
+
+.menu.desktop.upper .inner {
+  @apply flex max-w-none;
+
+  .nav-pills {
+    @apply ml-auto float-none mt-0
+  }
 }

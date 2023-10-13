@@ -54,7 +54,7 @@
       font-weight: 400;
     }
   </style>
-  <link type="text/css" rel="stylesheet" href="/css/font-awesome-4.7.0.min.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   <link rel="stylesheet" href="/style.css" />
 
 </head>
@@ -68,9 +68,9 @@
   <div id="outershell" class="outershell">
 
     <style type="text/css">
-      #content {
+      /* #content {
         padding-top: 10px;
-      }
+      } */
     </style>
     <div id="innershell" class="innershell">
       <div id="content" tabindex="-1" class="content" role="main">
@@ -79,26 +79,11 @@
           <div class="customPlugin customPlugin-42f4b429e555feea displayDTM">
             <div class="inner">
 
-              <div class="hero bg-[--blue] text-white">
-                <div class="container">
-                  <div class="row flex ">
-                    <div class="col-md-6">
-                      <h1 class="text-6xl bold">Create a better future</h1>
-                      <p class="font-bold">If you want to be part of something challenging and rewarding, joining us
-                        might be the right
-                        move for you.
-                      </p>
-                      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more </a></p>
-                    </div>
-                    <div class="col-md-6">
-                      image
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {{> hero }}
             </div>
           </div>
+
+  
 
           <div class="customPlugin customPlugin-42f4b429e555feea displayDTM">
             <div class="inner">
@@ -107,7 +92,7 @@
           </div>
 
           <div class="customPlugin customPlugin-7d6bc76fb04ae934 displayDTM">
-            <div class="inner"> <!-- About Section -->
+            <div class="inner">
               {{> values }}
             </div>
           </div>
