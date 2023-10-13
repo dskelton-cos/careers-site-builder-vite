@@ -1,4 +1,4 @@
-/* @tailwind base; */
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -9,12 +9,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --blue:  rgb(8, 80, 161);
+  --blue: rgb(8, 80, 161);
   --green: rgb(24, 136, 56);
   --beige: rgb(242, 236, 231);
 
 }
 
+@media (min-width: 768px) {
+
+  body {
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+}
 
 .logo {
   width: 250px;
@@ -30,12 +37,6 @@
 }
 
 
-.row-fluid,
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 #headerbordertop {
   height: initial;
 }
@@ -45,4 +46,4 @@
   border: 3px solid rgb(140, 224, 170);
   border-radius: 8px;
   padding: 2rem;
-} 
+}
