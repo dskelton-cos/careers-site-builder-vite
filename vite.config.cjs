@@ -19,6 +19,9 @@ export default defineConfig({
         main: resolve(__dirname, 'src/index.html'),
         // components: resolve(__dirname, 'src/components.html'),
       },
+      output: {
+        assetFileNames: `assets/[name].[ext]`
+      }
     },
   },
   plugins: [

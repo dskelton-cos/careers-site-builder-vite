@@ -60,3 +60,9 @@ body {
     @apply ml-auto float-none mt-0
   }
 }
+.outershell .banner-button {
+  @apply !text-white
+}
+.outershell .banner-button:hover {
+  @apply !text-white
+}
