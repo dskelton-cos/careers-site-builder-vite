@@ -54,15 +54,40 @@ body {
 }
 
 .menu.desktop.upper .inner {
-  @apply flex max-w-none;
+  @apply flex max-w-none gap-10;
 
   .nav-pills {
     @apply ml-auto float-none mt-0
   }
 }
-.outershell .banner-button {
-  @apply !text-white
+.outershell {
+  .banner-button {
+    @apply !text-white;
+    &:hover {
+      @apply !text-white;
+    }
+  }
 }
-.outershell .banner-button:hover {
-  @apply !text-white
+
+/* Header */
+#header {
+  @apply flex items-center;
+   > .limitwidth {
+    @apply w-full;
+   }
+  
+  h1 {
+    @apply hidden;
+  }
+  .headersubmenu {
+    @apply w-auto ml-auto;
+    .limitwidth {
+      @apply max-w-fit
+     }
+  }
+  
 }
+#headerbordertop, #skip {
+  @apply hidden
+}
+
