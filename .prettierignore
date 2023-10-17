@@ -7,5 +7,5 @@ dist/
 package*.json
 yarn.lock
 vite.config.js
-postcss.config.cjs
-tailwind.config.cjs
+postcss.config.js
+tailwind.config.js
