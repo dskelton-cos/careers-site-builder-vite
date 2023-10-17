@@ -41,6 +41,9 @@ body {
   max-width: none;
 }
 
+#content {
+  @apply !pt-0
+}
 
 #headerbordertop {
   height: initial;
