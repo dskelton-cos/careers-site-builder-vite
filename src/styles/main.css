@@ -93,3 +93,14 @@
   #headerbordertop, #skip {
     @apply hidden
   }
+
+  /* Search results*/
+  .job-tile-result-container {
+    @apply !bg-slate-100 flex flex-col;
+  }
+  .job-list {
+    @apply !pl-0 !mt-0
+  }
+  #tile-search-results-label {
+    @apply text-center
+  }
