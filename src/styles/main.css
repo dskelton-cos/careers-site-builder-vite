@@ -18,7 +18,7 @@
   
   html,
   body {
-    color: var(--body);
+    color: var(--body) ;
   }
   
   @media (min-width: 768px) {
@@ -33,6 +33,9 @@
     align-self: center;
   }
   
+  .breadcrumbtrail {
+    @apply hidden
+  }
   
   .slightlylimitwidth,
   .limitwidth,
@@ -103,4 +106,26 @@
   }
   #tile-search-results-label {
     @apply text-center
+  }
+  .job-row {
+    @apply !shadow-none !border-slate-300
+  }
+
+  /* searchwell */
+#search-wrapper > .row > .col-sm-6 {
+  @apply text-left mx-auto float-none bg-slate-100 max-w-7xl rounded-md
+}
+  .searchwell  {
+    @apply !bg-[--blue] !mb-0 ;
+  }
+
+  /* jobDisplayShell */
+  .jobDisplayShell {
+    @apply overflow-hidden container
+  }
+  .jobDisplay {
+    @apply max-w-7xl mx-auto float-none bg-slate-100 p-10 rounded-md text-[--body]
+  }
+  .jobTitle h1 {
+    @apply text-4xl font-[custom8203f65f688e4202a9faa] 
   }

@@ -1,0 +1,55 @@
+<div class="row clearfix">
+    <div class="span6 col-sm-6">
+        <div class="savesearch-wrapper" id="savesearch-wrapper">
+            <div class="well well-small well-sm">
+                <div class="savesearch" id="savesearch" xml:lang="en-GB" lang="en-GB">
+                    <div class="alert alert-error alert-danger hidden frequency-error" tabindex="-1">
+                        <button tabindex="0" type="button" class="close"
+                            onclick="$(this).closest('.alert-danger').addClass('hidden'); return false;"
+                            title="Close"><span aria-hidden="true">×</span></button>
+                        <div class="frequency-error-message" aria-live="polite"></div>
+                    </div>
+                    <span class="subscribe-frequency-label">
+                        <label aria-hidden="true">Select how often (in days) to receive an alert:</label>
+                        <input type="number" class="subscribe-frequency" name="frequency"
+                            aria-label="Select how often (in days) to receive an alert:" value="7" role="spinbutton"
+                            aria-valuemin="1" aria-valuemax="99" min="1" max="99" maxlength="2"
+                            oninput="j2w.Agent.setValidFrequency(this)" />
+                    </span>
+                    <div class="savesearch-buttons-wrapper">
+                        <a class="savesearch-link" id="savesearch-link" tabindex="0" href="#"><i
+                                class="icon-envelope glyphicon-envelope" aria-hidden="true"></i> Create Alert</a>
+                    </div>
+                </div>
+            </div>
+            <style type="text/css">
+                form.emailsubscribe-form {
+                    display: none;
+                }
+            </style>
+
+            <form id="emailsubscribe" class="emailsubscribe-form form-inline" name="emailsubscribe" method="POST"
+                action="/talentcommunity/subscribe/?locale=en_GB&amp;jobid=99490760" xml:lang="en-GB" lang="en-GB"
+                novalidate="novalidate">
+                <div class="well well-small well-sm">
+                    <div class="alert alert-error alert-danger hidden frequency-error" tabindex="-1">
+                        <button tabindex="0" type="button" class="close"
+                            onclick="$('.frequency-error').addClass('hidden'); return false;" title="Close"><span
+                                aria-hidden="true">×</span></button>
+                        <div class="frequency-error-message" aria-live="polite"></div>
+                    </div>
+                    <span class="subscribe-frequency-label">
+                        <label aria-hidden="true">Select how often (in days) to receive an alert:</label>
+                        <input type="number" class="subscribe-frequency" name="frequency"
+                            aria-label="Select how often (in days) to receive an alert:" value="7" role="spinbutton"
+                            aria-valuemin="1" aria-valuemax="99" min="1" max="99" maxlength="2"
+                            oninput="j2w.Agent.setValidFrequency(this)" />
+                    </span>
+                    <input id="emailsubscribe-button" class="btn emailsubscribe-button" title="Create Alert"
+                        value="Create Alert" type="submit" style="float: none" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="sharingwidget"></div>
+</div>
