@@ -6,6 +6,6 @@ dist/
 .github/
 package*.json
 yarn.lock
-vite.config.js
+vite.config.mjs
 postcss.config.cjs
 tailwind.config.cjs

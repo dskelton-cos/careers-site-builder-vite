@@ -9,6 +9,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --body: rgb(4, 28, 44);
+  --blue: rgb(8, 80, 161);
+  --green: rgb(24, 136, 56);
+  --beige: rgb(242, 236, 231);
 }
 
 a {
@@ -16,4 +20,148 @@ a {
 }
 a:hover {
   @apply text-[#535bf2];
+}
+
+html,
+body {
+  color: var(--body);
+}
+
+@media (min-width: 768px) {
+  body {
+    @apply text-xl;
+  }
+}
+
+/* Overrides */
+.slightlylimitwidth,
+.limitwidth,
+.headersubmenu,
+.customPlugin > .inner {
+  @apply !container;
+}
+
+.inner,
+.limitwidth,
+.breadcrumbtrail,
+#category-name,
+#category-header .headertext,
+.category-groups-wrapper,
+#noresults,
+#actions,
+#job-table,
+.back-to-search-wrapper,
+.jobDisplayShell,
+#similar-jobs,
+#ssoStack,
+.pagination-top,
+.pagination-bottom,
+.searchResultsShell,
+.keyword-title,
+.container {
+  @apply !container;
+}
+
+.breadcrumbtrail {
+  @apply hidden;
+}
+
+#caption {
+  @apply sr-only;
+}
+
+#innershell {
+  @apply max-w-full;
+}
+
+#headerbordertop,
+#skip {
+  @apply hidden;
+}
+#header {
+  .inner {
+    @apply px-0;
+  }
+}
+#category-name {
+  @apply sr-only;
+}
+.hidden-phone {
+  @apply !mb-0;
+}
+/* Logo & menu */
+.logo {
+  width: 250px;
+  align-self: center;
+}
+.menu {
+  @apply float-none !pb-0;
+}
+
+.menu.desktop.upper .inner {
+  @apply flex max-w-none gap-10;
+
+  .nav-pills {
+    @apply float-none ml-auto mt-0;
+  }
+}
+
+/* Content */
+
+#category-header {
+  @apply !mb-0;
+}
+#content {
+  @apply !pt-0;
+}
+.searchwell {
+  @apply !mb-0 !bg-[--blue];
+}
+
+/* Wells */
+
+.pagination-well {
+  @apply !mt-0 min-h-min p-0;
+}
+
+.searchwell {
+  @apply p-0;
+  .container-fluid {
+    @apply p-0;
+  }
+  .column {
+    @apply p-0;
+  }
+  .columnizedSearchForm {
+    @apply m-0 flex;
+  }
+}
+
+#search-wrapper {
+  @apply !mb-0;
+}
+#savesearch-wrapper {
+  @apply mb-0 p-0;
+}
+
+/* Table */
+
+#job-table {
+  @apply !mb-0;
+}
+#searchresults {
+  @apply mb-0;
+}
+
+/* Footer */
+#footer {
+  p {
+    @apply clear-none mt-0 pl-0 leading-none;
+  }
+  .social-links {
+    @apply hidden;
+  }
+  .links {
+    @apply !float-none clear-none;
+  }
 }
