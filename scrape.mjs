@@ -8,7 +8,7 @@ const options = {
       filename: "jobs.html",
     },
   ],
-  directory: "src",
+  directory: "./",
   subdirectories: [
     { directory: "public/img", extensions: [".jpg", ".png", ".svg"] },
     { directory: "public/js", extensions: [".js"] },
@@ -23,3 +23,4 @@ const options = {
 
 // with async/await
 const result = await scrape(options);
+console.log("🚀 ~ result:", result[0].Resource.saved)
