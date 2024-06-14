@@ -25,12 +25,7 @@ a:hover {
 html,
 body {
   color: var(--body);
-}
-
-@media (min-width: 768px) {
-  body {
-    @apply text-xl;
-  }
+  @apply lg:text-2xl;
 }
 
 /* Overrides */
@@ -38,7 +33,7 @@ body {
 .limitwidth,
 .headersubmenu,
 .customPlugin > .inner {
-  @apply !container;
+  @apply !max-w-none;
 }
 
 .inner,
@@ -59,11 +54,15 @@ body {
 .searchResultsShell,
 .keyword-title,
 .container {
-  @apply !container;
+  @apply !max-w-none;
 }
 
 .breadcrumbtrail {
   @apply hidden;
+}
+
+.headersubmenu {
+  @apply !px-[24px]
 }
 
 #caption {
@@ -94,15 +93,22 @@ body {
   width: 250px;
   align-self: center;
 }
-.menu {
-  @apply float-none !pb-0;
-}
 
+.menu.desktop {
+  @apply p-[24px] float-none;
+}
 .menu.desktop.upper .inner {
   @apply flex max-w-none gap-10;
 
   .nav-pills {
     @apply float-none ml-auto mt-0;
+  }
+}
+
+#actions {
+  @apply bg-slate-200 px-[24px];
+  #frequencySpinBtn {
+    @apply !w-auto p-0 !h-auto
   }
 }
 
@@ -114,9 +120,7 @@ body {
 #content {
   @apply !pt-0;
 }
-.searchwell {
-  @apply !mb-0 !bg-[--blue];
-}
+
 
 /* Wells */
 
@@ -125,15 +129,21 @@ body {
 }
 
 .searchwell {
-  @apply p-0;
+  @apply p-0 !mb-0 !bg-[--blue];
   .container-fluid {
-    @apply p-0;
+    @apply !p-[24px]
   }
   .column {
     @apply p-0;
   }
   .columnizedSearchForm {
     @apply m-0 flex;
+    .col-md-2, .col-md-9 {
+      @apply w-1/2;
+    }
+    .optionsLink {
+      @apply mb-0
+    }
   }
 }
 
@@ -142,26 +152,41 @@ body {
 }
 #savesearch-wrapper {
   @apply mb-0 p-0;
+  .well {
+    @apply px-0
+  }
+}
+
+.keywordsearch-q {
+  @apply bg-white !w-full
 }
 
 /* Table */
 
 #job-table {
-  @apply !mb-0;
+  @apply !mb-0 !container;
 }
 #searchresults {
   @apply mb-0;
 }
+#search-results-header th {
+  @apply !w-auto
+}
 
 /* Footer */
 #footer {
+  @apply !mb-0 !container mx-auto;
   p {
-    @apply clear-none mt-0 pl-0 leading-none;
+    @apply clear-none mt-0 pl-0 leading-snug;
   }
   .social-links {
     @apply hidden;
   }
   .links {
-    @apply !float-none clear-none;
+    @apply !float-none w-fit;
   }
+}
+
+#footerRowBottom {
+ @apply text-center
 }
