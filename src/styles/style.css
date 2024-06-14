@@ -1,7 +1,8 @@
 :root {
   --color-light: #fdfaed;
-  --color-dark: #3e1c0a;
+  --color-dark: rgb(4, 28, 44);
   --color-body: rgb(4, 28, 44);
+  --color-gray: rgb(149, 155, 158);
   --color-blue: rgb(8, 80, 161);
   --color-green: rgb(24, 136, 56);
   --color-beige: rgb(242, 236, 231);
@@ -23,19 +24,27 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: none;
-  .limitwidth {
+  padding: 24px;
+
+  #skip {
+    display: none;
+  }
+  > .limitwidth {
     max-width: none;
+    margin: 0;
+    width: 100%;
   }
   .menu {
     padding: 0;
+    .inner {
+      max-width: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
-  .inner {
-    max-width: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+
   .lower {
     padding: 0;
   }
@@ -51,6 +60,7 @@ body {
   }
   .headersubmenu {
     position: initial;
+    width: auto;
   }
 }
 #headerbordertop {
@@ -61,7 +71,12 @@ body {
   display: none;
 }
 
-.headermain {
+.profileWidget {
+  width: max-content;
+}
+
+.menu.desktop .nav > li {
+  margin: 0;
 }
 
 #innershell {
@@ -69,20 +84,55 @@ body {
 }
 #content {
   padding-top: 0 !important;
+  > .inner > .hidden-phone {
+    display: none;
+  }
 }
 #category-name {
   max-width: none;
 }
 
+.keywordsearch-button {
+  background-color: white !important;
+}
+
+body.coreCSB .btn.keywordsearch-button {
+  color: var(--color-body) !important;
+}
+
+#body .outershell input[type='submit']:hover {
+  color: var(--color-body) !important;
+}
+
+.keywordsearch-q {
+  padding: 6px 12px;
+}
+
 #search-wrapper {
   margin-bottom: 0 !important;
   .searchwell {
+    padding:48px 0;
     background-color: var(--color-blue);
   }
+}
+#savesearch-link {
+  background-color: var(--color-green);
+  padding: 0.5rem 1rem;
+  color: white !important;
+  border-radius: 4px !important;
 }
 
 #actions {
   max-width: none;
+  background-color: var(--color-beige);
+  .span6 {
+    display: flex;
+    justify-content: center;
+  }
+}
+#savesearch-wrapper {
+  margin-bottom: 0;
+  padding: 0;
 }
 
 #footer {
@@ -92,33 +142,84 @@ body {
     display: none;
   }
   ul.links {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
     float: none;
     li {
-      margin:0;
-      border:none;
-      padding:0;
+      margin: 0;
+      border: none;
+      padding: 0;
     }
     a {
-      font-size:16px
+      font-size: 16px;
     }
   }
 }
 
 #search-results-header {
   th {
-    width:auto;
+    width: auto;
+  }
+}
+
+#footerRowTop {
+  background-color: var(--color-dark);
+  .links a {
+    color: var(--color-gray) !important;
   }
 }
 
 #footerRowBottom {
+  background-color: var(--color-blue);
   text-align: center;
-  padding:0;
+  color: white !important;
+  padding: 32px 24px;
   p {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
+}
+
+.pagination-label-row {
+  padding: 0;
+  float: none;
+  line-height: normal;
+}
+
+.pagination-well {
+  padding: 0;
+  min-height: auto;
+}
+
+input#frequencySpinBtn {
+  width: auto !important;
+  height: auto !important;
+  padding: 6px 4px !important;
+
+}
+
+.jobTitle-link {
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+#labelFrequencySpinBtn {
+  margin-bottom: 0;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  padding: 16px 8px;
+}
+
+#search-results-header th a {
+  color: #666 !important;
+  font-weight: normal
 }
