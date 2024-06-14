@@ -7,6 +7,10 @@ const options = {
       url: "https://cityofsydnt1.valhalla10.stage.jobs2web.com/go/Available-Jobs/7439460/",
       filename: "jobs.html",
     },
+    {
+      url: "https://cityofsydnt1.valhalla10.stage.jobs2web.com/job/SOCIAL-POLICY-&-PROGRAMS-Social-Policy-Work-Placement-AGEN-10058/166542666/",
+      filename: "job-example.html",
+    },
   ],
   directory: "./",
   subdirectories: [
@@ -23,4 +27,3 @@ const options = {
 
 // with async/await
 const result = await scrape(options);
-console.log("🚀 ~ result:", result[0].Resource.saved)
