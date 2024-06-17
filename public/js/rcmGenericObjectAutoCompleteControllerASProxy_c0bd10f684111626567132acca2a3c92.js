@@ -1,0 +1,2 @@
+(function(b){var a=b.dwr;a||(a=b.dwr={});var d=a.engine;d||(d=a.engine={});b.DWREngine||(b.DWREngine=a.engine);var e=b.AjaxService,a=b.AjaxServiceFactory;a||(a=b.AjaxServiceFactory={});b=b.rcmGenericObjectAutoCompleteControllerASProxy=function(){};a.rcmGenericObjectAutoCompleteController=b;b.search=function(b,a){var c={};"undefined"!=typeof a&&("function"==typeof a?c.callback=a:c=a);c.headers=e._preCall();"undefined"!=typeof cid&&(c.headers.cid=cid);d._execute("/xi/ajax/remoting","rcmGenericObjectAutoCompleteControllerProxy",
+"search",b,c)}})(window);

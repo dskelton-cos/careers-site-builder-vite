@@ -1,0 +1,3 @@
+function RCMLabel(a,b){this._super(a,b);this._init(b)}
+(function(){juic.extend(RCMLabel,SFLabel,{_init:function(a){this._labelForId=a?a.forId:"";this._required=a?a.required:!1},renderHtml:function(a){a.push('\x3clabel id\x3d"',this.id,'" for\x3d"',this._labelForId,'" class\x3d"',this._enabled?"":"readonly ",this._cssClass,'"\x3e');this._required&&a.push('\x3cspan class\x3d"requiredField"  aria-hidden\x3d"true" role\x3d"presentation"\x3e*\x3c/span\x3e\x26nbsp;');a.push(juic.escapeHTMLIfNeeded(this._value,this._encodeLabels),"\x3c/label\x3e")},getId:function(){return this.id},
+getValue:function(){return this._value}})})();

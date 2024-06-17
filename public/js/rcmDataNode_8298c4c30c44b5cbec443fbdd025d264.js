@@ -1,0 +1,1 @@
+function RCMDataNode(a){this._init(a)}RCMDataNode.nodeGen=0;RCMDataNode.prototype=function(){return set(new Component,{_init:function(a){this._nodeId=a?escape(a):"node"+ ++RCMDataNode.nodeGen},setNodeId:function(a){this._nodeId=a},getNodeId:function(){return this._nodeId},renderHtml:function(a){a.push(this.getNodeId())},cleanup:function(){delete this._nodeId}})}();

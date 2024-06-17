@@ -1,0 +1,2 @@
+function RCMAccessibleContainer(a,b){this.register();this._accessibleText=b||"";this._contentComponent=a||{}}
+RCMAccessibleContainer.prototype=function(){return juic.set(new juic.Component,{renderHtml:function(a){a.push('\x3cdiv id\x3d"',this.id,'"\x3e');this._accessibleText&&(a.push('\x3cspan class\x3d"sr-only"\x3e'),a.push(this._accessibleText),a.push("\x3c/span\x3e"));this._contentComponent&&this._contentComponent.renderHtml(a);a.push("\x3c/div\x3e")},setAccessibleText:function(a){this._accessibleText=a}})}();

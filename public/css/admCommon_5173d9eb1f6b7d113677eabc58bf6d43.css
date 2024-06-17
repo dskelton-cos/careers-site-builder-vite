@@ -1,0 +1,1333 @@
+div.adm-loading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.admBoxLoadingDiv {
+  font: 1.6em bold Trebuchet, Arial;
+}
+
+.admBoxLoadingDiv b.adminv2_helpbar_r1,
+.admBoxLoadingDiv b.adminv2_helpbar_r2,
+.admBoxLoadingDiv b.adminv2_helpbar_r3,
+.admBoxLoadingDiv b.adminv2_helpbar_r4 {
+  background-color: #F2F2F2;
+}
+
+div.admBoxLoadingDiv .sfloadingIcon {
+  height: 40px;
+  background-color: #F2F2F2;
+  background-position: 6px 6px;
+  padding-left: 50px;
+  padding-right: 10px;
+  width: auto;
+}
+
+div.adm-loading div {
+  width: 150px;
+}
+
+div.breadcrumb {
+  padding-left: 4px;
+  font-style: normal;
+}
+
+.globalLowVisionSupport.dark div.breadcrumb .link {
+  color: #fff;
+}
+
+.globalLowVisionSupport.light div.breadcrumb .link {
+  color: #000;
+}
+
+div.breadcrumb em {
+  font-style: normal;
+}
+
+a.breadcrumb-link {
+  color: inherit;
+}
+
+a.link {
+  zoom: 1;
+}
+
+.saveas-template {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+}
+
+.valid-message {
+  color: black;
+}
+
+.round {
+  margin: 0;
+}
+
+.moveDownIcon {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') 0 -1656px no-repeat;
+}
+
+.moveUpIcon {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') 0 -1629px no-repeat;
+}
+
+.moveDownDisabled {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') 0 -1709px no-repeat;
+}
+
+.moveUpDisabled {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') 0 -1682px no-repeat;
+}
+
+.smallIconStyle {
+  padding-left: 16px;
+  display: inline;
+  cursor: pointer;
+}
+
+#manage_templates ul.tab_list .welcomeLiSelected {
+  background-color: #FFF8C6;
+}
+
+#manage_templates .welcomeDivSelected {
+  background-color: #FFF8C6;
+  margin: -5px -10px;
+}
+
+div.adminv2_helpbar {
+  background-color: #FFF8C6;
+  margin-bottom: 5px;
+  border: 1px solid #C9C299;
+}
+
+.welcomeHelpbar {
+  margin: 0 15px;
+  margin-bottom: 5px;
+  background: url('../img/portlet_shadow_03a2715a1db9a29a0a7347be293bff78_1.gif') repeat-x;
+  overflow: hidden;
+}
+
+.adminv2_roundedHelpbar {
+  margin: 0 15px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.adminv2_helpbar_rtop,
+.adminv2_helpbar_rbottom {
+  display: block;
+  font-size: 0;
+}
+
+.adminv2_helpbar_contentDiv {
+  padding: 10px 15px;
+  overflow: auto;
+}
+
+.helpbar_border .adminv2_helpbar_contentDiv {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.adminv2_helpbar_rtop *,
+.adminv2_helpbar_rbottom * {
+  display: block;
+  height: 1px;
+  overflow: hidden;
+}
+
+.adminv2_helpbar_r1 {
+  margin: 0 5px;
+  font-size: 0;
+}
+
+.helpbar_border .helpbar_top {
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.helpbar_border .helpbar_bottom {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.adminv2_helpbar_r2 {
+  margin: 0 3px;
+  font-size: 0;
+}
+
+.helpbar_border .adminv2_helpbar_r2 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.adminv2_helpbar_r3 {
+  margin: 0 2px;
+  font-size: 0;
+}
+
+.helpbar_border .adminv2_helpbar_r3 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.adminv2_helpbar_r4 {
+  margin: 0 1px;
+  height: 2px;
+  font-size: 0;
+}
+
+.helpbar_border .adminv2_helpbar_r4 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.adminv2_morePlus {
+  background: url('../img/plus_86b8ce63667919355d4a77fd7f5b789b.gif') no-repeat !important;
+  padding: 0 11px;
+  text-decoration: none !important;
+  marign-right: 5px;
+}
+
+.adminv2_moreMinus {
+  background: url('../img/minus_091cd101871b78c3e15352094688f932.gif') no-repeat !important;
+  padding: 0 11px;
+  text-decoration: none !important;
+  marign-right: 5px;
+}
+
+.rtl .adminv2_morePlus {
+  background-position-x: 100% !important;
+}
+
+.rtl .adminv2_moreMinus {
+  background-position-x: 100% !important;
+}
+
+.adminv2_divtableCenter {
+  text-align: -moz-center;
+
+}
+
+div.pm-preview {
+  position: relative;
+}
+
+div.preview-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: alpha(opacity=35);
+  -moz-opacity: .35;
+  -khtml-opacity: .35;
+  opacity: .35;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+div.preview-content {
+  top: 0;
+  left: 0;
+}
+
+.page-title {
+  padding-left: 5px;
+}
+
+.welcomeWhatImg {
+  height: 115px;
+  width: 115px;
+  background: url('../img/welcome_img_what_c4cc3963df30b6c8bf7513e61123bba8.gif') no-repeat;
+  margin: 10px 10px 10px -15px;
+}
+
+.welcomeStartImg {
+  height: 100px;
+  width: 105px;
+  background: url('../img/welcome_img_start_d41d8cd98f00b204e9800998ecf8427e.gif');
+  margin: 10px 0;
+}
+
+.rtl .welcomeWhatImg {
+  margin-right: -15px;
+  margin-left: 10px;
+  background: url('../img/welcome_img_what_rtl_26ceb3e04e34d04aa4c1d954bf282b87.gif') no-repeat;
+}
+
+.rtl .welcomeStartImg {
+  background: url('../img/welcome_img_start_rtl_486dcd6944de234db1b5664a32faf6a8.gif');
+}
+
+.adminWelcomeMsgContainer {
+  text-align: center;
+  padding: 10px;
+}
+
+.adminMsgDiv {
+  margin: 10px;
+}
+
+a.admHelpIcon {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') no-repeat;
+}
+
+a.admHelpIcon {
+  width: 18px;
+  height: 17px;
+  display: inline;
+  text-decoration: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+a.admHelpIcon {
+  background-position: 0 -901px;
+}
+
+a.admHelpIcon:hover {
+  background-position: 0 -930px;
+  border-bottom: none;
+}
+
+.dataGrid th a.admHelpIcon {
+  border-bottom: none;
+}
+
+.adminWZContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.adminWZHeader {
+  padding: 3px;
+  border-bottom: 1px solid #CCC;
+  background-color: #f2f2f2;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.adminWZBody {
+  padding: 10px;
+  overflow: auto;
+}
+
+.adminWZFooter {
+  border-top: 1px solid #CCC;
+  background-color: #f2f2f2;
+  padding: 5px 0;
+  padding-right: 10px;
+}
+
+.adminWZFooter .buttonfooter {
+  width: 100%;
+}
+
+.adminWZMsgDiv {
+  padding: 5px;
+  display: none;
+  min-height: 25px;
+}
+
+.adminWZMsgDiv.info {
+  background-color: #DDE6EE;
+  border: 1px solid #699;
+  color: #00529B;
+}
+
+.adminWZMsgDiv.warn {
+  background-color: #FAEFB4;
+  border: 1px solid #C93;
+  color: #333;
+}
+
+.adminWZBody .sysmsg.alert dd.sapIcon {
+  color: #B14C2F;
+}
+
+.adminWZMsgDiv.error {
+  background-color: #EDD;
+  border: 1px solid #966;
+  color: #333;
+}
+
+.adminWZMsgDiv.success {
+  background-color: #DBF0DB;
+  border: 1px solid #393;
+  color: #4F8A10;
+}
+
+.msgContentDiv {
+  width: 90%;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.msgIconDiv {
+  float: left;
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+}
+
+.adminWarning {
+  padding-left: 25px;
+}
+
+.adminWZWarn:before {
+  font-family: "SAP-icons";
+  content: "\e053";
+  color: #9F4A2F;
+}
+
+.adminWarning {
+  background-color: orange;
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') no-repeat scroll 0 -90px;
+}
+
+.adminWZError:before {
+  font-family: "SAP-icons";
+  content: "\e0b1";
+  color: #9F4A2F;
+}
+
+.adminWZInfo {
+  background-color: blue;
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') no-repeat scroll 0 -30px;
+}
+
+.adminWZSuccess {
+  background-color: green;
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') no-repeat scroll 0 -60px;
+}
+
+.a11y_lowVisionDark .adminWZContainer {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.a11y_lowVisionLight .adminWZContainer {
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionDark .adminWZHeader {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+.a11y_lowVisionLight .adminWZHeader {
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+.a11y_lowVisionDark .adminWZFooter {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
+.a11y_lowVisionLight .adminWZFooter {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.a11y_lowVisionDark div.adminv2_helpbar {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionLight div.adminv2_helpbar {
+  background-color: #FFF;
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionDark .LFRootPgDiv .labelDiv {
+  color: #fff;
+  background-color: #000;
+}
+
+.a11y_lowVisionDark a.launchFormsTutorialLink,
+.a11y_lowVisionDark a.launchFormsTutorialLink:hover,
+.a11y_lowVisionDark a.launchFormsTutorialLink:active {
+  color: #0cad00;
+  border-bottom: 1px dotted #0cad00;
+}
+
+.a11y_lowVisionDark a.launchFormsTutorialLink:visited {
+  color: #ff0;
+  border-bottom: 1px dotted #ff0;
+}
+
+.a11y_lowVisionLight a.launchFormsTutorialLink,
+.a11y_lowVisionLight a.launchFormsTutorialLink:hover,
+.a11y_lowVisionLight a.launchFormsTutorialLink:active,
+.a11y_lowVisionLight a.launchFormsTutorialLink:visited {
+  color: #005887;
+  border-bottom: 1px dotted #005887;
+}
+
+.a11y_lowVisionDark .summaryDataDiv a,
+.a11y_lowVisionDark .summaryDataDiv a:link,
+.a11y_lowVisionDark .summaryDataDiv a:hover,
+.a11y_lowVisionDark .summaryDataDiv a:active,
+.a11y_lowVisionDark .selectEmployeeTab a,
+.a11y_lowVisionDark .selectEmployeeTab a:link,
+.a11y_lowVisionDark .selectEmployeeTab a:hover,
+.a11y_lowVisionDark .selectEmployeeTab a:active,
+.a11y_lowVisionDark .successImgDiv a,
+.a11y_lowVisionDark .successImgDiv a:link,
+.a11y_lowVisionDark .successImgDiv a:hover,
+.a11y_lowVisionDark .successImgDiv a:active {
+  color: #0cad00;
+}
+
+.a11y_lowVisionDark .summaryDataDiv a:visited,
+.a11y_lowVisionDark .selectEmployeeTab a:visited,
+.a11y_lowVisionDark .successImgDiv a:visited {
+  color: #ff0;
+}
+
+.a11y_lowVisionLight .summaryDataDiv a,
+.a11y_lowVisionLight .summaryDataDiv a:link,
+.a11y_lowVisionLight .summaryDataDiv a:hover,
+.a11y_lowVisionLight .summaryDataDiv a:active .a11y_lowVisionLight .summaryDataDiv a:visited {
+  color: #005887;
+}
+
+.a11y_lowVisionDark .templateInfoBox .link {
+  color: #0cad00;
+  border-bottom: 1px dotted #0cad00;
+}
+
+.a11y_lowVisionDark .templateInfoBox a:visited {
+  color: #ff0;
+}
+
+.a11y_lowVisionLight .templateInfoBox .link,
+.a11y_lowVisionLight .templateInfoBox a:visited {
+  color: #005887;
+  border-bottom: 1px dotted #005887;
+}
+
+.a11y_lowVisionDark .calendar-input-field-disabled {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.a11y_lowVisionDark .user-search-autocomplete-input-field {
+  height: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.a11y_lowVisionLight .user-search-autocomplete-input-field-disabled {
+  background-color: #fff;
+}
+
+.a11y_lowVisionLight .user-search-autocomplete-input-field {
+  color: #000;
+}
+
+.a11y_lowVisionDark .calendar-input-wrapper input,
+.a11y_lowVisionDark .recurringOptionsDiv input,
+.a11y_lowVisionDark .reviewPeriodPgDiv input {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.a11y_lowVisionLight .calendar-input-wrapper input,
+.a11y_lowVisionLight .recurringOptionsDiv input,
+.a11y_lowVisionLight .reviewPeriodPgDiv input {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.a11y_lowVisionLight .calendar-input-wrapper {
+  border: 0 solid #000;
+}
+
+.a11y_lowVisionDark div.launchEmpList table.grid th {
+  color: #fff;
+  font-weight: bold;
+  border-top: .5px solid #fff;
+  border-bottom: .5px solid #fff;
+  background-color: #333 !important;
+  background: none;
+}
+
+.a11y_lowVisionLight div.launchEmpList table.grid th {
+  color: #000;
+  background-color: #efefef !important;
+  font-weight: bold;
+  border-top: .5px solid #000;
+  border-bottom: .5px solid #000;
+  background: none;
+}
+
+.globalLowVisionSupport.dark select option,
+.globalLowVisionSupport.dark select[disabled]:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.globalLowVisionSupport.light select option,
+.globalLowVisionSupport.light select[disabled]:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.globalLowVisionSupport.dark select:hover,
+.globalLowVisionSupport.dark select option:hover,
+.globalLowVisionSupport.dark select option [selected] {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+}
+
+.globalLowVisionSupport.light select:hover,
+.globalLowVisionSupport.light select option:hover,
+.globalLowVisionSupport.light select option [selected] {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.globalLowVisionSupport.dark select,
+.globalLowVisionSupport.dark select [disabled] {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.globalLowVisionSupport.light select,
+.globalLowVisionSupport.light select [disabled] {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.globalLowVisionSupport.dark input {
+  background-color: #000;
+  color: #fff;
+}
+
+.globalLowVisionSupport.light input {
+  background-color: #fff;
+  color: #000;
+}
+
+.a11y_lowVisionDark .selectActiveUsersOnly {
+  background-color: #000;
+}
+
+.a11y_lowVisionLight .selectActiveUsersOnly {
+  background-color: #fff;
+}
+
+.a11y_lowVisionDark .adminWZMsgDiv.warn,
+.a11y_lowVisionDark .adminWZMsgDiv.error {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.a11y_lowVisionLight .adminWZMsgDiv.warn,
+.a11y_lowVisionLight .adminWZMsgDiv.error {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.a11y_lowVisionDark .introSectionEditTextArea .introSectionName {
+  background-color: #333;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionDark .introSectionEditTextArea textarea.textAreaContent {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.a11y_lowVisionLight .introSectionEditTextArea .introSectionName {
+  background-color: #efefef;
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionLight .introSectionEditTextArea textarea,
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbSelectionSection,
+.a11y_lowVisionLight .filterList {
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionDark .backgroundcolor {
+  background-color: #222;
+}
+
+.a11y_lowVisionLight .backgroundcolor {
+  background-color: #efefef;
+}
+
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbcentral_right .rb_massSelection .globalPortletDimmedTextColor,
+.a11y_lowVisionLight .rb_massSelection .floatleft .autocompspan .autocompinput,
+.a11y_lowVisionLight .rb_help_txt,
+.a11y_lowVisionLight .select_options {
+  color: #000;
+}
+
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbcentral_right .rb_massSelection .globalPortletDimmedTextColor,
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbcentral_right .rbSelectedSection .rb_massSelection,
+.a11y_lowVisionDark .rb_help_txt,
+.a11y_lowVisionDark .rb_massSelection .floatleft .autocompspan .autocompinput,
+.a11y_lowVisionDark .select_options {
+  color: #fff;
+}
+
+.a11y_lowVisionDark .sfDlg .sfDlgCntr .innerBdy .block .block_title {
+  color: #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: none;
+}
+
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbSelectionSection,
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbLeftSection,
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbSelectedSection {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionLight .sfDlg .sfDlgCntr .innerBdy .block .block_title {
+  color: #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: none;
+}
+
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbLeftSection,
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbSelectedSection,
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbLeftSection,
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbSelectedSection {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbSelectedSection .listview_wrapper,
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbSelectionSection .listview_wrapper {
+  border-top: 1px solid #000;
+}
+
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbSelectedSection .listview_wrapper,
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbSelectionSection .listview_wrapper {
+  border-top: 1px solid #fff;
+}
+
+.a11y_lowVisionLight .summaryDataDiv table {
+  border-color: #000;
+}
+
+.a11y_lowVisionDark .summaryDataDiv table {
+  background-color: #000;
+  border-color: #fff;
+}
+
+.a11y_lowVisionDark .tdContentDiv .labelDiv {
+  background-color: #000;
+  color: #fff;
+}
+
+.a11y_lowVisionDark .filterList {
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionDark .rbSelectDialog .rb2pane .rbcentral_right .rb_massSelection .sfCheckBoxEnabled a {
+  border: 1px dotted #fff;
+}
+
+.a11y_lowVisionLight .rbSelectDialog .rb2pane .rbcentral_right .rb_massSelection .sfCheckBoxEnabled a {
+  border: 1px dotted #000;
+}
+
+.a11y_lowVisionDark .adm-image-input-wrapper input {
+  border: 1px solid #fff !important;
+}
+
+.a11y_lowVisionDark .sharedGroup {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionLight .sharedGroup {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.dynamicGroupDivInterior {
+  border: 1px solid #666;
+  float: left;
+  padding: 3px;
+  margin: 3px 0;
+}
+
+.a11y_lowVisionDark .dynamicGroupDivInterior {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionLight .dynamicGroupDivInterior {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionLight .dynamicGroupDiv input[type="button"] {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.a11y_lowVisionDark .dynamicGroupDiv input[type="button"] {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.a11y_lowVisionDark a.launch_search_button,
+.a11y_lowVisionDark a.launch_edit_button,
+.a11y_lowVisionDark .adminWZError,
+.a11y_lowVisionDark a.launch_search_button,
+.a11y_lowVisionDark a.launch_edit_button {
+  background: none;
+}
+
+.a11y_lowVisionDark .adminWZError:before {
+  font-family: "SAP-icons";
+  content: "\e0b1";
+  color: #fff;
+}
+
+.a11y_lowVisionDark .adminWZWarn {
+  background: none;
+  background-color: #000;
+}
+
+.a11y_lowVisionDark .adminWZWarn:before {
+  font-family: "SAP-icons";
+  content: "\e201";
+  color: #fff;
+}
+
+.a11y_lowVisionDark a.launch_edit_button:before {
+  font-family: "SAP-icons";
+  content: "\e038";
+  color: #fff;
+}
+
+.a11y_lowVisionDark a.launch_search_button:before {
+  font-family: "SAP-icons";
+  content: "\e06e";
+  color: #fff;
+}
+
+.a11y_lowVisionLight a.launch_search_button,
+.a11y_lowVisionLight a.launch_edit_button {
+  background: none;
+}
+
+.a11y_lowVisionLight .adminWZError:before {
+  font-family: "SAP-icons";
+  content: "\e0b1";
+  color: #000;
+}
+
+.a11y_lowVisionLight .adminWZError {
+  background: none;
+}
+
+.a11y_lowVisionLight .adminWZWarn {
+  background: none;
+  background-color: #fff;
+}
+
+.a11y_lowVisionLight .adminWZWarn:before {
+  font-family: "SAP-icons";
+  content: "\e201";
+  color: #000;
+}
+
+.a11y_lowVisionLight a.launch_search_button,
+.a11y_lowVisionLight a.launch_edit_button {
+  background: none;
+}
+
+.a11y_lowVisionLight a.launch_edit_button:before {
+  font-family: "SAP-icons";
+  content: "\e038";
+  color: #000;
+}
+
+.a11y_lowVisionLight a.launch_search_button:before {
+  font-family: "SAP-icons";
+  content: "\e06e";
+  color: #000;
+}
+
+.wizardTabPanel {
+  padding-right: 10px;
+  overflow: hidden;
+  margin: 8px;
+}
+
+.wizardTabPanel .rightborder {
+  overflow: hidden;
+}
+
+.wizardTab,
+.tabConnector {
+  float: left;
+  background: url('../img/tft_wizardbar_sprite_5ca6a3da71755825eef3a9b99d9014c9.gif') repeat-x;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wizardTab {
+  line-height: 30px;
+  cursor: default;
+  padding: 0 4px;
+}
+
+.index0 {
+  border-left: 1px solid #A1A1A1;
+  padding-left: 12px;
+}
+
+.wiz-normal {
+  background-position: 0 -150px;
+  color: #005887;
+}
+
+.wiz-hover {
+  background-position: 0 -200px;
+  color: #000;
+}
+
+.wiz-selected {
+  background-position: 0 -250px;
+  color: #fff;
+}
+
+.wiz-disabled {
+  background-position: 0 -150px;
+  color: #333;
+}
+
+.tabConnector {
+  width: 30px;
+  height: 30px;
+}
+
+.wiz-normalwiz-normal,
+.wiz-disabledwiz-disabled,
+.wiz-disabledwiz-normal,
+.wiz-normalwiz-disabled {
+  background-position: 0 -350px;
+}
+
+.wiz-normalwiz-hover {
+  background-position: 0 -400px;
+}
+
+.wiz-normalwiz-selected {
+  background-position: 0 -450px;
+}
+
+.wiz-disabledwiz-selected {
+  background-position: 0 -450px;
+}
+
+.wiz-hoverwiz-normal {
+  background-position: 0 -500px;
+}
+
+.wiz-hoverwiz-selected {
+  background-position: 0 -550px;
+}
+
+.wiz-selectedwiz-normal {
+  background-position: 0 -600px;
+}
+
+.wiz-selectedwiz-disabled {
+  background-position: 0 -600px;
+}
+
+.wiz-selectedwiz-hover {
+  background-position: 0 -650px;
+}
+
+.lastTab {
+  border-right: 1px solid #A1A1A1;
+}
+
+.centeringDiv {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.centeringDiv ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+.centeringDiv ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+.dynamicGroupDiv {
+  padding-left: 10px;
+}
+
+.dynamicGroupDiv input {
+  margin-left: 3px;
+  border: 1px solid #666;
+}
+
+.calendar-icon:before {
+  font-family: 'SAP-icons';
+  content: '\e046';
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.calendar-input-field-disabled {
+  position: static;
+  padding: 2px 2px 0 0;
+  border: medium none;
+  height: 18px;
+  float: left;
+  background-color: #D9D9D9;
+}
+
+.safari-only .calendar-input-field-disabled {
+  width: 90px;
+}
+
+.calendar-input-field-enabled {
+  position: static;
+  padding: 2px 2px 0 0;
+  border: medium none;
+  height: 18px;
+  float: left;
+  background-color: #FFF;
+}
+
+.calendar-closeIcon {
+  background: url('../img/xi_icons_f2491424aa4ae879e42ac054b7c71d48_1.gif') -2px -1198px no-repeat;
+  height: 20px;
+  float: right;
+  padding-right: 2px;
+}
+
+.calendar-input-wrapper {
+  border: 1px solid #000;
+  height: 20px;
+}
+
+.admroundbtn {
+  display: -moz-inline-box;
+  display: inline-block;
+  margin: auto .25em;
+  background: none;
+  *display: inline;
+  zoom: 1;
+}
+
+.admroundbtn li {
+  list-style: none;
+  padding: 9px 0;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  height: 16px;
+}
+
+.admroundbtn li.adm_btn_right {
+  width: 6px;
+}
+
+.admroundbtn li.middle {
+  font-family: Arial;
+  background: transparent url('../img/btn_regular_bg_mid_e069c87b7fe60a21d39e1e160ec8ab0f.gif') repeat;
+  border: 0;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+  overflow: visible;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: black;
+  min-width: 70px;
+  text-align: center;
+  width: auto !important;
+  width: 70px;
+  white-space: nowrap;
+}
+
+.admroundbtn li.adm_btn_left {
+  background: url('../img/btn_regular_bg_left_7fa841ba5e1b533133b23fd44bfc045b.gif') repeat;
+}
+
+.admroundbtn li.adm_btn_right {
+  background: url('../img/btn_regular_bg_right_47e847a36bff9905e4260283f575cae8.gif') repeat;
+}
+
+.admroundbtn.blue li.middle,
+.admroundbtn.orange li.middle {
+  color: white;
+}
+
+.admroundbtn.btnhover {
+  border-style: none !important;
+}
+
+.admroundbtn.btnhover li.middle {
+  background: transparent url('../img/btn_regular_hover_bg_mid_52f38e58f8519de11b3629247054eb86.gif') repeat-x;
+}
+
+.admroundbtn.btnhover li.adm_btn_left {
+  background: transparent url('../img/btn_regular_hover_bg_left_be64e1ae7600721379ce571dfaa47219.gif') repeat-x;
+}
+
+.admroundbtn.btnhover li.adm_btn_right {
+  background: transparent url('../img/btn_regular_hover_bg_right_a31faa23f3fbc39d661248a5352a0236.gif') repeat-x;
+}
+
+.admroundbtn.blue li.middle {
+  background: url('../img/btn_blue_bg_mid_909880bc7671a043167b68468515818f.gif') repeat;
+}
+
+.admroundbtn.blue li.adm_btn_left {
+  background: transparent url('../img/btn_blue_bg_left_bf4357afd559bffd9c066b6cad05c258.gif') repeat;
+}
+
+.admroundbtn.blue li.adm_btn_right {
+  background: transparent url('../img/btn_blue_bg_right_7776f63d7269cf7a874d341db556aa7b.gif') repeat;
+}
+
+.admroundbtn.orange li.middle {
+  background: transparent url('../img/btn_org_bg_mid_01ada8fe78d80788e5d5fbf2013c2975.gif') repeat;
+  *padding-bottom: 8px;
+}
+
+.admroundbtn.orange li.adm_btn_left {
+  background: transparent url('../img/btn_org_bg_left_6e3d066a03053c56b18b0636be85660f.gif') repeat;
+}
+
+.admroundbtn.orange li.adm_btn_right {
+  background: transparent url('../img/btn_org_bg_right_d9eef27bcf87cbcb1fc063f4fe5a13bd.gif') repeat;
+}
+
+.admroundbtn.disabled li.adm_btn_left {
+  background: url('../img/btn_regular_disabled_bg_left_4a036e8acfa18a51906deeb2e4c4bf2c.gif') repeat;
+}
+
+.admroundbtn.disabled li.adm_btn_right {
+  background: url('../img/btn_regular_disabled_bg_right_840f9fc7e9e0ee22190d38a6b1f59e1e.gif') repeat;
+}
+
+.admroundbtn.disabled li.middle {
+  background: url('../img/btn_regular_disabled_bg_mid_e00250d42cd6019c2c233df8b1b06dba.gif') repeat;
+}
+
+.admroundbtn.disabled li {
+  color: #aaa;
+  cursor: default;
+}
+
+.shadowbox {
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#818181') !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#818181')";
+  zoom: 1;
+}
+
+.tabSpace {
+  margin-left: 20px;
+}
+
+.singleSelectFilters p.filterLabel {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 200px;
+  text-align: right;
+  margin-right: 6px;
+}
+
+.admDummyDiv {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.redItalicsAlert {
+  font-style: italic;
+  color: #c00;
+}
+
+.welcomeDivSelected .subtlePromptContainer {
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 10px;
+  width: 45%;
+}
+
+#manage_templates .mtSubtlePrompt .mtSubtlePromptLink {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.manage-templates-table-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-table;
+}
+
+.round.bun.topbar_only {
+  background: url('../img/portlet_shadow_03a2715a1db9a29a0a7347be293bff78_1.gif') repeat-x scroll center bottom #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.globalLowVisionSupport .round.bun.topbar_only {
+  background: none;
+}
+
+.loading-sign {
+  font-weight: bold;
+}
+
+div[id="manage_templates"] div.gridHeader {
+  display: inline-block;
+  padding: 2px 3px 5px 2px;
+}
+
+div[id*=':cell:0'] {
+  overflow: visible !important;
+}
+
+div[id="manage_templates"] .tab_panel ul.tab_list li a span {
+  color: #000;
+}
+
+.globalLowVisionSupport.dark div[id="manage_templates"] .tab_panel ul.tab_list li a span {
+  color: #FFF;
+}
+
+.rtl .sf-list-select li {
+  text-align: right;
+}
+
+.rtl .adminWZContainer {
+  display: table-cell;
+}
+
+.rtl .adminWZFooter .buttonfooter {
+  text-align: left;
+}
+
+.rtl .adminWZFooter {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.rtl .adminWZHeader {
+  text-align: center;
+}
+
+.rtl .LFRootPgDiv .labelDiv {
+  text-align: left;
+  padding-left: 10px;
+  padding-rigt: 0;
+}
+
+.rtl .contentDiv {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.rtl .adminv2_helpbar .center {
+  text-align: center;
+}
+
+.rtl .adminWZContainer .tabSpace {
+  margin-right: 20px;
+  padding-right: 40px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.rtl .wizardTabPanel ul li {
+  float: right;
+}
+
+.rtl .adminWZContainer .index0 {
+  border-right: 1px solid #A1A1A1;
+  border-left: 0;
+  padding-right: 12px;
+}
+
+.rtl .adminWZContainer .tabConnector {
+  transform: scaleX(-1.2);
+}
+
+.rtl .textright .center {
+  text-align: center;
+}
+
+.rtl .adminWZMsgDiv .msgIconDiv {
+  float: right;
+}

@@ -19,13 +19,29 @@ body {
 }
 
 #header {
-  display: flex;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+
   font-size: 16px;
   justify-content: space-between;
   align-items: center;
   max-width: none;
-  padding: 24px;
 
+  padding: 12px;
+  @media only screen and (min-width: 768px) {
+    padding: 24px;
+  }
+
+
+
+  .mobile-nav {
+    display: none;
+  }
+  .mobile-search {
+    display: none;
+  }
   #skip {
     display: none;
   }
@@ -139,13 +155,17 @@ body.coreCSB .btn.keywordsearch-button {
   .inner {
   }
   .social-links {
-    display: none;
+    display: none !important;
   }
   ul.links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
+
+    @media only screen and (min-width: 768px) {
+      gap: 2rem;
+    }
     float: none;
     li {
       margin: 0;
@@ -156,6 +176,10 @@ body.coreCSB .btn.keywordsearch-button {
       font-size: 16px;
     }
   }
+}
+
+.jobDistance {
+  display: none !important;
 }
 
 #search-results-header {
@@ -177,6 +201,7 @@ body.coreCSB .btn.keywordsearch-button {
   color: white !important;
   padding: 32px 24px;
   p {
+    line-height: 1.5;
     margin: 0;
     padding: 0;
   }
@@ -199,12 +224,25 @@ input#frequencySpinBtn {
   padding: 6px 4px !important;
 
 }
+#job-table {
+  padding: 0 16px;
+}
 
+.jobTitle {
+  margin-bottom: 8px;
+  @media only screen and (min-width: 768px) {
+  margin-bottom: 0;
+  }
+}
 .jobTitle-link {
   font-weight: bold;
+  font-size:20px;
   &:hover {
     text-decoration: underline !important;
   }
+}
+.back-to-search-wrapper {
+  display: none !important;
 }
 
 #labelFrequencySpinBtn {

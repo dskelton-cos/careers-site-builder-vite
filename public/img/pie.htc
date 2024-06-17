@@ -1,0 +1,50 @@
+<!--
+PIE: CSS3 rendering for IE
+Version 1.0.0
+http://css3pie.com
+Dual-licensed for use under the Apache License Version 2.0 or the General Public License (GPL) Version 2.
+-->
+<PUBLIC:COMPONENT lightWeight="true">
+<PUBLIC:ATTACH EVENT="oncontentready" FOR="element" ONEVENT="myPieInit()" />
+<PUBLIC:ATTACH EVENT="ondocumentready" FOR="element" ONEVENT="myPieInit()" />
+<PUBLIC:ATTACH EVENT="ondetach" FOR="element" ONEVENT="myPieCleanUp()" />
+
+<script type="text/javascript">
+var el = element;
+/*
+* $$SF--CHANGE$$
+* to attach the PIE behavior for any component in the page
+*/
+function myPieInit(){
+    if(window.initPie){
+        setTimeout(function(){initPie(el)},0);
+    }
+}
+/*
+* $$SF--CHANGE$$
+* remove the PIE that is added to any component
+*/
+function myPieCleanUp(){
+    try {
+        if(window.cleanupPie){
+            setTimeout(function(){cleanupPie(el)},0);
+        }
+    } catch(e) {}
+}
+/*
+* $$SF--CHANGE$$
+* remove the PIE that is added to any component
+*/
+if( el.readyState === 'complete' ) {
+    if(window.initPie){
+        setTimeout(function(){initPie(el)},0);
+    }
+}
+
+window._piehtc = true;
+
+if (window.PIE) {
+    window.PIE.htc = true;
+}
+</script>
+</PUBLIC:COMPONENT>

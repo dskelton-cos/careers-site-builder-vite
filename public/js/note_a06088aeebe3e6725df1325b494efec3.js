@@ -1,0 +1,2 @@
+function openNotePopup(d,e,f,a){a=height=a?800:550;a="dependent\x3d1,resizable\x3d1,innerWidth\x3d"+a+",width\x3d"+a+",innerHeight\x3d"+height+",height\x3d"+height;var c=null,b="/note";pageHeaderJsonData&&pageHeaderJsonData.accessibilityPreferences&&(c=pageHeaderJsonData.accessibilityPreferences.lowVisionType);void 0!=d&&(b+="?param_fb_note_about_id\x3d"+d);b=b+("\x26param_fb_note_time_stamp\x3d"+e)+("\x26param_fb_note_permission_token\x3d"+f)+("\x26_s.crb\x3d"+ajaxSecKey);c&&(b+="\x26lvmode\x3d"+
+c);openCtrWin(b,"Notes",a)};

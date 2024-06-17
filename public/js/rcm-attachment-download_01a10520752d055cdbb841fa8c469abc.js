@@ -1,0 +1,1 @@
+"undefined"==typeof RCMAttachmentDownload&&(window.RCMAttachmentDownload=function(){return set(new juic.EventTarget,{retrieveAttachment:function(a){window.open(a,"rcmattachment","scrollbars,resizable,height\x3d480,width\x3d730")},retrieveAttachmentToSelf:function(a){window.open(a,"_self")}})}());

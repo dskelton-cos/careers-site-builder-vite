@@ -11,10 +11,14 @@ const options = {
       url: "https://cityofsydnt1.valhalla10.stage.jobs2web.com/job/SOCIAL-POLICY-&-PROGRAMS-Social-Policy-Work-Placement-AGEN-10058/166542666/",
       filename: "job-example.html",
     },
+    {
+      url: "https://career10preview.sapsf.com/careers?company=cityofsydnT1",
+      filename: "careers.html",
+    },
   ],
   directory: "./",
   subdirectories: [
-    { directory: "public/img", extensions: [".jpg", ".png", ".svg"] },
+    { directory: "public/img", extensions: [".jpg", ".png", ".svg", ".ico", ".webp", ".gif", ".htc"] },
     { directory: "public/js", extensions: [".js"] },
     { directory: "public/css", extensions: [".css"] },
     {
