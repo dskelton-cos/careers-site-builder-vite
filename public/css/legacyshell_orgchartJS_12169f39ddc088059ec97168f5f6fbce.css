@@ -700,7 +700,7 @@ div.quickcard {
   background: transparent url('../img/quickcard_top_0354fd479ef6cdf9f2e856064942fa26.gif') top repeat-x;
   border: 0;
   height: 20px;
-  * height: 16px;
+/*   * height: 16px; */
   margin-left: 7px;
   margin-right: 7px;
   overflow: visible;
